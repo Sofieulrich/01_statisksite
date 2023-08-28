@@ -1,0 +1,160 @@
+body {
+  background-color: black;
+  margin: 2%;
+}
+
+.index_body {
+  background-image: url(pics/braden-collum-9HI8UJMSdZA-unsplash.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.navigation a {
+  font-family: "new-order", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.navigation a:hover {
+  color: #00ff27;
+}
+
+a :hover {
+  color: white;
+}
+
+h1 {
+  font-family: "sporty-pro-inline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200px;
+  color: #00ff27;
+}
+
+.navigationlogo {
+  font-family: "gal-gothic-variable", sans-serif;
+  font-variation-settings: "wght" 700;
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h2 {
+  color: white;
+  font-family: "new-order", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 50px;
+}
+
+h3 {
+  color: white;
+  font-family: "new-order", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+p {
+  color: white;
+  font-family: "new-order", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.side_overskrift {
+  font-size: 120px;
+}
+
+/***************KATEGORIER******************/
+.kategoriliste {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+.kategoriliste a {
+  font-family: "new-order", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 2em;
+  background-color: #00ff27;
+}
+
+.kategoriliste a:hover {
+  color: black;
+}
+
+/**************PRODUKTLISTE*************/
+
+.produktliste_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.læsmere {
+  font-family: "new-order", sans-serif;
+  text-decoration: none;
+  color: #00ff27;
+}
+
+.produktliste_grid article.produkt_udsalg .udsalg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.udsalg {
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.udsalg p {
+  color: black;
+  font-weight: 1000;
+}
+
+dd {
+  color: white;
+  font-family: "new-order", sans-serif;
+}
+
+dt {
+  color: white;
+  font-family: "new-order", sans-serif;
+}
+
+/*************PRODUKT***************/
+
+.produktnavn {
+  font-size: 30px;
+  padding-top: 75px;
+}
+
+.produktinfo {
+  font-size: 30px;
+  padding-top: 75px;
+  color: #00ff27;
+}
