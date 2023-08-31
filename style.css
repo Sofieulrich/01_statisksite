@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
   margin: 2%;
@@ -78,10 +82,11 @@ p {
 }
 
 /***************KATEGORIER******************/
-.kategoriliste {
+.kategoriliste ol {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1em;
+  gap: 10em;
+  margin-top: 2cm;
 }
 
 .kategoriliste a {
@@ -126,7 +131,7 @@ img {
   justify-content: space-between;
 }
 
-.udsalg {
+.discounted {
   background-color: white;
   margin-bottom: 20px;
 }
@@ -155,6 +160,34 @@ dt {
 
 .produktinfo {
   font-size: 30px;
-  padding-top: 75px;
+  padding-top: 40px;
   color: #00ff27;
+}
+
+button {
+  background-color: pink;
+  padding: 1.2em;
+  font-family: "new-order", sans-serif;
+}
+
+label {
+  background-color: pink;
+  padding: 1em;
+  font-family: "new-order", sans-serif;
+}
+
+select {
+  margin-left: 1cm;
+  background-color: white;
+  font-family: "new-order", sans-serif;
+  font-size: 17px;
+}
+
+/*********PRODUKTLISTE************/
+
+article.soldOut::after {
+  content: "SOLD OUT";
+  padding: 1em;
+  background-color: pink;
+  font-family: "new-order", sans-serif;
 }

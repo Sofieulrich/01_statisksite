@@ -20,50 +20,20 @@
     </header>
     <main>
       <hr />
-      <h2>PRODUKTER</h2>
+      <h2>PRODUKTLISTE</h2>
       <div class="produktliste_grid">
-        <article class="produkt1">
-          <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp" alt="Sahara Team India Fanwear Round Neck Jersey" />
-          <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-          <p class="produkttype">T-shirts / Nike</p>
-          <p class="pris">DKK 1595,-</p>
-          <a class="læsmere" href="produkt.html">LÆS MERE</a>
-        </article>
-        <article class="produkt_udsalg">
-          <img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="Blue T20 Indian Cricket Jersey" />
-          <h3>Blue T20 Indian Cricket Jersey</h3>
-          <p class="produkttype">T-shirts / Nike</p>
-          <p class="pris">DKK 1595,-</p>
-          <div class="udsalg">
-            <p>Nu: DKK 1560,-</p>
-            <p>-34%</p>
-          </div>
-          <a class="læsmere" href="produkt.html">LÆS MERE</a>
-        </article>
-        <article class="produkt1">
-          <img src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp" alt="Blue T20 Indian Cricket Jersey" />
-          <h3>Blue T20 Indian Cricket Jersey</h3>
-          <p class="produkttype">T-shirts / Nike</p>
-          <p class="pris">DKK 1595,-</p>
-          <a class="læsmere" href="produkt.html">LÆS MERE</a>
-        </article>
-        <article class="produkt1">
-          <img src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp" alt="Blue T20 Indian Cricket Jersey" />
-          <h3>Blue T20 Indian Cricket Jersey</h3>
-          <p class="produkttype">T-shirts / Nike</p>
-          <p class="pris">DKK 1595,-</p>
-          <a class="læsmere" href="produkt.html">LÆS MERE</a>
-        </article>
-        <article class="produkt1">
-          <img src="https://kea-alt-del.dk/t7/images/webp/640/1526.webp" alt="Blue T20 Indian Cricket Jersey" />
-          <h3>Blue T20 Indian Cricket Jersey</h3>
-          <p class="produkttype">T-shirts / Nike</p>
-          <p class="pris">DKK 1595,-</p>
-          <a class="læsmere" href="produkt.html">LÆS MERE</a>
-        </article>
+        <template id="smallProductTemplate">
+          <article class="smallProduct">
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp" alt="Sahara Team India Fanwear Round Neck Jersey" />
+            <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+            <p class="subcategory">T-shirts / Nike</p>
+            <p>PRIS: <span class="price"></span></p>
+            <p class="remove_discount">-<span class="discount"></span>%</p>
+            <a class="læsmere" href="produkt.html">LÆS MERE</a>
+          </article>
+        </template>
       </div>
     </main>
     <script src="productlist.js"></script>
-    <script src="script.js"></script>
   </body>
 </html>
